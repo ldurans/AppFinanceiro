@@ -1,0 +1,17 @@
+<section data-ng-controller="HomeController">
+	<div>
+
+		<h2>Congrats! You've configured and run the sample application.</h2>
+
+		<p>To create new entities in your project you have to:</p>
+		<p><em>$ yo meanjs-table:crud-module *module-name*</em></p>
+		<p>This will create both AngularJS and Express files supporting full CRUD functionality. This subgenerator will create an entity with only one property called <em>name</em>. If we want to add new properties to our entity, we weed to follow these three steps:</p>
+
+		<ul>
+			<li>Add new properties to the Mongoose Schema in <strong>app/models/<em>module-name</em>.server.model.js</strong></li>
+			<li>Add new properties to the angular-formly array properties in <strong>public/modules/<em>module-name</em>/services/<em>module-name</em>.form.client.service.js</strong></li>
+			<li>Add new columns for the new properties in the HTML table in <strong>public/modules/<em>module-name</em>/views/list-<em>module-name</em>.client.view.html</strong></li>
+		</ul>
+
+	</div>
+</section>
